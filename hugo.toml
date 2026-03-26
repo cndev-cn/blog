@@ -1,0 +1,71 @@
+baseURL = 'https://blog.phpha.com/'
+locale = 'zh-cn'
+title = 'PHPHA'
+theme = 'PaperMod'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[permalinks]
+  pages = '/:slug/'
+  categories = '/category/:slug/'
+  tags = '/tag/:slug/'
+
+[[menu.main]]
+  name = '归档'
+  url = '/archives/'
+  weight = 1
+
+[[menu.main]]
+  name = '分类'
+  url = '/categories/'
+  weight = 2
+
+[[menu.main]]
+  name = '标签'
+  url = '/tags/'
+  weight = 3
+
+[[menu.main]]
+  name = '关于'
+  url = '/about/'
+  weight = 4
+
+[[menu.main]]
+  name = '友链'
+  url = '/links/'
+  weight = 5
+
+[params]
+  defaultTheme = "auto"
+  description = "About web-development and PHP."
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+  TocOpen = false
+  comments = false
+
+[params.homeInfoParams]
+  Title = "PHPHA 的博客 👋"
+  Content = "About web-development and PHP."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/phpha"
+
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://x.com/phpha"
