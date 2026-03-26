@@ -1,5 +1,5 @@
 baseURL = 'https://blog.phpha.com/'
-locale = 'zh-cn'
+locale = 'zh'
 title = 'PHPHA'
 theme = 'PaperMod'
 
@@ -59,7 +59,7 @@ theme = 'PaperMod'
   comments = false
 
 [params.homeInfoParams]
-  Title = "PHPHA 的博客 👋"
+  Title = "PHPHA Blog 👋"
   Content = "About web-development and PHP."
 
 [[params.socialIcons]]
