@@ -38,6 +38,11 @@ hasCJKLanguage = true
   url = '/tags/'
   weight = 3
 
+[[menu.main]]
+  name = '友链'
+  url = '/links/'
+  weight = 4
+
 [params]
   defaultTheme = "auto"
   description = "About web-development and PHP."
