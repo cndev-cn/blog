@@ -66,5 +66,6 @@ hasCJKLanguage = true
   url = "https://github.com/phpha"
 
 [[params.socialIcons]]
-  name = "twitter"
-  url = "https://x.com/phpha"
+  name = "email"
+  url = "mailto:mail@phpha.com"
+
