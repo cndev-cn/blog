@@ -48,7 +48,8 @@ hasCJKLanguage = true
   ShowCodeCopyButtons = true
   ShowWordCount = true
   ShowToc = true
-  TocOpen = false
+  TocOpen = true
+  UseHugoToc = true
   comments = false
 
 [params.homeInfoParams]
