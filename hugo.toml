@@ -2,11 +2,14 @@ baseURL = 'https://blog.phpha.com/'
 locale = 'zh'
 title = 'PHPHA'
 theme = 'PaperMod'
+hasCJKLanguage = true
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    noClasses = false
 
 [pagination]
   pagerSize = 10
@@ -49,7 +52,7 @@ theme = 'PaperMod'
   comments = false
 
 [params.homeInfoParams]
-  Title = "PHPHA Blog 👋"
+  Title = "PHPHA 👋"
   Content = "About web-development and PHP."
 
 [[params.socialIcons]]
